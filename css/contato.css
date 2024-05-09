@@ -1,24 +1,21 @@
 #contato{
-    color: white;
+    color: rgb(187, 106, 241);
     font-family: monospace;
     font-size: 30px;
     margin-top: 200px;
     font-size: 70px;
-    margin-left: 20px;
     text-align: center;
 }
 
-.gmail{
-    width: 150px;
-    height: 150px;
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
 }
 
-.github{
-    width: 150px;
-    height: 150px;
-}
-
-.linkedin{
-    width: 150px;
-    height: 150px;
+.ab:hover{
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    width:  300px;
+    height: 300px;
 }

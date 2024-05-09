@@ -15,7 +15,9 @@
 <body>
     <header>
         <nav>
-            <div class="inicio">Alissa Gabriel</div>
+            <a href="index.html">
+                <h1 class="inicio">Alissa Gabriel</h1>
+            </a>
             <div class="corpo">
                 <ul class="menu">
                     <li><a href="#sobre-mim">Sobre Mim</li></a>
@@ -31,15 +33,15 @@
         <span></span>
     </div>
 
-    <section id="sobre-mim">
-        <div class="sobreMim">
-            <h1 class="sobre">Sobre Mim</h1>
-            <h2>Meu nome é Alissa Gabriel, tenho 18 anos, moro em Dois Córregos. Me formei na Etec-Araraquara
-                em 2023
-                no curso Desenvolvimento De Sistemas Integrado ao Ensino Médio. Atualmente estou cursando o Primeiro
-                Semestre em
-                Desenvolvimento de Software Multiplataforma na Fatec-Jahu.</h2>
-        </div>
+    <section class="sobre-mim" id="sobre-mim">
+        <h1 class="sobre">Sobre Mim</h1>
+        <h2 class="sobreMim">
+            Meu nome é Alissa Gabriel, tenho 18 anos, moro em Dois Córregos. Me formei na
+            Etec-Araraquara
+            em 2023
+            no curso Desenvolvimento De Sistemas Integrado ao Ensino Médio. Atualmente estou cursando o Primeiro
+            Semestre em
+            Desenvolvimento de Software Multiplataforma na Fatec-Jahu.</h2>
     </section>
 
     <figure>
@@ -48,13 +50,18 @@
 
     <section class="conhecimentos" id="conhecimentos">
         <h1 id="texto">Meus Conhecimentos</h1>
-        <img class="logos" src="imagens/html.png" alt="imagem da logo do HTML">
-        <img id="css" src="imagens/css.png" alt="imagem da logo do CSS">
-        <img id="c" src="imagens/c.png" alt="imagem da logo do C">
-        <img class="logos" src="imagens/mysql.png" alt="imagem da logo do MySql">
-        <img id="vscode" src="imagens/vscodem.png" alt="imagem da logo do Visual Studio Code">
-        <img id="vstudio" src="imagens/visualstudio.png" alt="imagem da logo do Visual Studio">
+        <div class="container1">
+            <img src="imagens/html.png" alt="imagem da logo do HTML">
+            <img src="imagens/css.png" alt="imagem da logo do CSS">
+            <img src="imagens/c.png" alt="imagem da logo do C">
+        </div>
+        <div class="container2">
+            <img src="imagens/mysql.png" alt="imagem da logo do MySql">
+            <img src="imagens/vscodem.png" alt="imagem da logo do Visual Studio Code">
+            <img src="imagens/visualstudio.png" alt="imagem da logo do Visual Studio">
+        </div>
     </section>
+
     <section class="projetos" id="meus-projetos">
         <h1 class="projeto">Meus Projetos</h1>
         <div id="container">
@@ -62,7 +69,7 @@
                 <div class="card">
                     <div class="aumentado">
                         <a href="https://github.com/AlissaGabriel/LojaDeRoupas">
-                            <img src="imagens/port1.PNG" alt="">
+                            <img src="imagens/.PNG" alt="">
                         </a>
                         <figcaption>Loja de Roupas <br>Desenvolvida em Html e Css</figcaption>
                     </div>
@@ -72,7 +79,7 @@
                 <div class="card">
                     <div class="aumentado">
                         <a href="https://github.com/AlissaGabriel/LojaDeRoupas">
-                            <img src="imagens/port1.PNG" alt="">
+                            <img src="imagens/.PNG" alt="">
                         </a>
                         <figcaption>Loja de Roupas <br>Desenvolvida em Html e Css</figcaption>
                     </div>
@@ -82,7 +89,7 @@
                 <div class="card">
                     <div class="aumentado">
                         <a href="https://github.com/AlissaGabriel/LojaDeRoupas">
-                            <img src="imagens/port1.PNG" alt="">
+                            <img src="imagens/.PNG" alt="">
                         </a>
                         <figcaption>Loja de Roupas <br>Desenvolvida em Html e Css</figcaption>
                     </div>
@@ -92,9 +99,14 @@
     </section>
     <section class="contato" id="contato">
         <h1 class="contato">Contato</h1>
-        <a href="">
-            <img class="" src="imagens/" alt="">
+        <div class="redes">
+        <a href="https://www.github.com/AlissaGabriel">
+            <img class="ab" src="imagens/github.png" alt="GitHub">
         </a>
+        <a href="https://www.linkedin.com/in/AlissaGabriel">
+            <img class="ab" src="imagens/linkedin.png" alt="Linkedin">
+        </a>
+    </div>
     </section>
 </body>
 

@@ -4,11 +4,7 @@
 }
 
 body {
-    background-color: rgb(187, 106, 241);
-}
-
-header {
-    box-shadow: 3px 3px 3px rgb(226, 183, 235);
+    background-color: white;
 }
 
 nav {
@@ -25,7 +21,15 @@ nav {
 .inicio {
     font-size: 50px;
     font-weight: 700;
-    color: white;
+    color: black;
+}
+
+.inicio:hover{
+    color: rgb(187, 106, 241);
+}
+
+a{
+    text-decoration: none;
 }
 
 .menu {
@@ -34,7 +38,7 @@ nav {
 }
 
 .menu li a:hover {
-    color: rgb(65, 54, 65);
+    color: rgb(187, 106, 241);
 }
 
 .menu li {
@@ -44,12 +48,12 @@ nav {
 .menu li a {
     text-decoration: none;
     font-size: 25px;
-    color: white;
+    color: black;
 }
 
 .animado {
     font-size: 110px;
-    color: white;
+    color: rgb(187, 106, 241);
     margin-top: 300px;
     font-family: monospace;
     margin-left: 20px;
@@ -62,7 +66,7 @@ nav {
 
 .animado span::before {
     content: "";
-    color: white;
+    color: rgb(187, 106, 241);
     animation: mensagem 35s infinite;
 }
 
@@ -74,7 +78,7 @@ nav {
     right: -10px;
     animation: cursor .8s infinite, digitar 35s steps(80) infinite;
     width: calc(100% + 18px);
-    background-color: rgb(187, 106, 241);
+    background-color: white;
 }
 
 @keyframes digitar {
@@ -90,7 +94,7 @@ nav {
 
 @keyframes cursor {
     0% {
-        border-left: 2px solid rgb(187, 106, 241);
+        border-left: 2px solid black;
     }
 }
 
@@ -114,7 +118,7 @@ nav {
 }
 
 button:hover{
-    background-color: white;
+    background-color: rgb(187, 106, 241);
     cursor: pointer;
     color:black;
 }
@@ -124,11 +128,11 @@ body::-webkit-scrollbar {
   }
   
   body::-webkit-scrollbar-track {
-    background: rgb(187, 106, 241);        
+    background: white;        
   }
   
   body::-webkit-scrollbar-thumb {
-    background-color: white;    
+    background-color: rgb(187, 106, 241);    
     border-radius: 10px;     
     border: 3px solid black;  
   }
