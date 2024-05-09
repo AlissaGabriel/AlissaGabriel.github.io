@@ -1,0 +1,24 @@
+#contato{
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    margin-top: 200px;
+    font-size: 70px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.gmail{
+    width: 150px;
+    height: 150px;
+}
+
+.github{
+    width: 150px;
+    height: 150px;
+}
+
+.linkedin{
+    width: 150px;
+    height: 150px;
+}

@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(187, 106, 241);
+}
+
+header {
+    box-shadow: 3px 3px 3px rgb(226, 183, 235);
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: monospace;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.inicio {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li a:hover {
+    color: rgb(65, 54, 65);
+}
+
+.menu li {
+    padding-left: 30px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.animado {
+    font-size: 110px;
+    color: white;
+    margin-top: 300px;
+    font-family: monospace;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.animado span {
+    position: relative;
+}
+
+.animado span::before {
+    content: "";
+    color: white;
+    animation: mensagem 35s infinite;
+}
+
+.animado span::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 2px solid white;
+    right: -10px;
+    animation: cursor .8s infinite, digitar 35s steps(80) infinite;
+    width: calc(100% + 18px);
+    background-color: rgb(187, 106, 241);
+}
+
+@keyframes digitar {
+
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95% {
+        width: 0;
+    }
+
+    5%,20%,25%,40%,45%,60%,65%,80%,85% {
+        width: calc(100% + 18px);
+    }
+}
+
+@keyframes cursor {
+    0% {
+        border-left: 2px solid rgb(187, 106, 241);
+    }
+}
+
+@keyframes mensagem {
+    
+    0%, 20%{
+        content: "";
+    }
+    21%, 40%{
+        content: "Meu nome é Alissa Gabriel";
+    }
+    41%, 60%{
+        content: "Estudo na Fatec-Jahu";
+    }
+    61%, 80%{
+        content: "Estou cursando DSM";
+    }
+    81%, 100%{
+        content: "";
+    }
+}
+
+button:hover{
+    background-color: white;
+    cursor: pointer;
+    color:black;
+}
+
+body::-webkit-scrollbar {
+    width: 15px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(187, 106, 241);        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: white;    
+    border-radius: 10px;     
+    border: 3px solid black;  
+  }
+
