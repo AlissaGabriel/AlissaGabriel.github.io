@@ -1,51 +1,42 @@
 
-.card{
-    border-radius: 12px;
-    padding: 0;
-    overflow: hidden;
-    position: relative;
-    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-    margin-top: 70px;
-    margin-left: 110px;
+#projeto{
+    color: rgb(187, 106, 241);
+    font-family: monospace;
+    margin-top: 150px;
+    font-size: 70px;
+    margin-left: 20px;
+    text-align: center;
 }
 
-#container{
+.projetos1{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.col{
-    padding: 10px 40px;
-}
-
-.aumentado {
-  border-radius: 12px;
-  padding: 0;
-  overflow: hidden;
-  position: relative;
+.card1, .card2, .card3{
+    padding: 40px;
 }
   
-.aumentado img {
+.card1 img,.card2 img, .card3 img {
     overflow: hidden;
     clear: both;
-    background-color: #eee;
+    background-color: white;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 1);
     width: 300px;
     height: 300px;
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
+} 
 
-.card:hover{
-    box-shadow: 0 0 8px blue;
-    border: solid 1px black;
-}
-
-.card:hover img{
+.card1:hover img, .card2:hover img, .card3:hover img{
     scale: 1.4;
 }
 
-figcaption{
+ figcaption{
     background-color: #222;
     border-radius: 10px;
     color: #fff;
@@ -53,13 +44,4 @@ figcaption{
     text-align: center;
     text-decoration: none;
     font-family: monospace;
-}
-
-.projeto{
-    color: rgb(187, 106, 241);
-    font-family: monospace;
-    margin-top: 250px;
-    font-size: 70px;
-    margin-left: 20px;
-    text-align: center;
-}
+} 

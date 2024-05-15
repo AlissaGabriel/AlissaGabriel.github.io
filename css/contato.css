@@ -1,8 +1,7 @@
-#contato{
+#contatos{
     color: rgb(187, 106, 241);
     font-family: monospace;
-    font-size: 30px;
-    margin-top: 200px;
+    margin-top: 150px;
     font-size: 70px;
     text-align: center;
 }
@@ -11,11 +10,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px;
 }
 
-.ab:hover{
+.ima:hover{
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-    width:  300px;
+    width:  400px;
+    height: 400px;
+}
+
+.imag:hover{
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    width:  270px;
+    height: 270px;
+}
+
+.ima{
+    width: 300px;
     height: 300px;
+}
+
+
+.imag{
+    width: 180px;
+    height: 180px;
 }

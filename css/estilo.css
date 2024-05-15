@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
     display: flex;
@@ -22,6 +22,7 @@ nav {
     font-size: 50px;
     font-weight: 700;
     color: black;
+    margin-top: 40px;
 }
 
 .inicio:hover{
@@ -35,6 +36,7 @@ a{
 .menu {
     list-style: none;
     display: flex;
+    justify-content: end;
 }
 
 .menu li a:hover {
@@ -54,7 +56,7 @@ a{
 .animado {
     font-size: 110px;
     color: rgb(187, 106, 241);
-    margin-top: 300px;
+    margin-top: 250px;
     font-family: monospace;
     margin-left: 20px;
     text-align: center;
@@ -137,3 +139,30 @@ body::-webkit-scrollbar {
     border: 3px solid black;  
   }
 
+  .menu2 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 50px;
+}
+
+.menu2 li a:hover {
+    color: rgb(187, 106, 241);
+}
+
+.menu2 li {
+    padding-left: 30px;
+}
+
+.menu2 li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+
+.copy{
+    font-size: 20px;
+    text-align: center;
+}
