@@ -161,6 +161,21 @@ body::-webkit-scrollbar {
     color: black;
 }
 
+.inicio2{
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position:absolute;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.inicio2:hover{
+    color: rgb(187, 106, 241);
+}
 
 .copy{
     font-size: 20px;

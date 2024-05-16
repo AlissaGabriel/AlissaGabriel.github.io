@@ -28,4 +28,5 @@
     margin: 0px 15px 0 15px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 70px;
 }
