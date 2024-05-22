@@ -1,8 +1,12 @@
 .imagem {
     border-radius: 50%;
     width: 300px;
-    height: 300px;
-    margin-left: 650px;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 70px;
 }
 
@@ -17,9 +21,9 @@
 
 .sobre{
     color:  rgb(187, 106, 241);
-   font-size: 70px;
-   margin-bottom: 70px;
-   margin-top: 200px;
+    font-size: 70px;
+    margin-bottom: 70px;
+    margin-top: 450px;
 }
 
 .sobreMim{
@@ -27,6 +31,7 @@
     text-align: center;
     color: black;
 }
+
 
 
 

@@ -1,4 +1,4 @@
-#contatos{
+#contatos {
     color: rgb(187, 106, 241);
     font-family: monospace;
     margin-top: 150px;
@@ -6,31 +6,41 @@
     text-align: center;
 }
 
-.redes{
+.redes {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.ima:hover{
+.logo1:hover {
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-    width:  400px;
-    height: 400px;
-}
-
-.imag:hover{
-    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-    width:  270px;
+    width: 270px;
     height: 270px;
 }
 
-.ima{
+.logo2:hover {
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    width: 400px;
+    height: 400px;
+}
+
+.logo3:hover {
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    width: 270px;
+    height: 270px;
+}
+
+.logo1 {
+    width: 200px;
+    height: 200px;
+}
+
+.logo2 {
     width: 300px;
     height: 300px;
 }
 
-
-.imag{
+.logo3 {
     width: 180px;
     height: 180px;
 }

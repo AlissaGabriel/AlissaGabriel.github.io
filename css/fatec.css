@@ -7,11 +7,6 @@
     text-align: center;
 }
 
-.maps{
-    text-align: center;
-    margin-top: 50px;
-}
-
 .fatec2{
     font-family: monospace;
     font-size: 30px;
@@ -30,3 +25,13 @@
     flex-direction: column;
     padding-bottom: 70px;
 }
+
+.maps{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.fatec3 a{
+    color: rgb(187, 106, 241);
+}
+
