@@ -174,6 +174,16 @@ body::-webkit-scrollbar-thumb {
     margin-top: 2px;
 }
 
+.github:hover {
+    width: 150px;
+    height: 150px;
+}
+
+.gmail:hover {
+    width: 100px;
+    height: 100px;
+}
+
 .menu1 {
     list-style: none;
     display: flex;
@@ -185,16 +195,6 @@ body::-webkit-scrollbar-thumb {
 
 .menu1 li {
     padding-left: 30px;
-}
-
-.github:hover {
-    width: 150px;
-    height: 150px;
-}
-
-.gmail:hover {
-    width: 100px;
-    height: 100px;
 }
 
 .menu2 {
