@@ -3,14 +3,14 @@
     width: 300px;
 }
 
-.foto{
+.foto {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 70px;
 }
 
-#sobre-mim{
+#sobre-mim {
     font-family: monospace;
     font-size: 30px;
     display: flex;
@@ -19,26 +19,15 @@
     flex-direction: column;
 }
 
-.sobre{
-    color:  rgb(187, 106, 241);
+.titulo {
+    color: rgb(187, 106, 241);
     font-size: 70px;
     margin-bottom: 70px;
     margin-top: 450px;
 }
 
-.sobreMim{
+.sobreMim {
     margin: 0px 15px 0 15px;
     text-align: center;
     color: black;
 }
-
-
-
-
-
-
-
-
-
-
-

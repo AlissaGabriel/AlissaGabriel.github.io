@@ -1,4 +1,4 @@
-.fatec{
+.fatec {
     color: rgb(187, 106, 241);
     font-family: monospace;
     font-size: 30px;
@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-.fatec2{
+.fatec2 {
     font-family: monospace;
     font-size: 30px;
     text-align: center;
@@ -15,7 +15,7 @@
     margin: 0px 15px 0 15px;
 }
 
-.fatec3{
+.fatec3 {
     font-family: monospace;
     font-size: 20px;
     text-align: center;
@@ -26,12 +26,11 @@
     padding-bottom: 70px;
 }
 
-.maps{
-    text-align: center;
-    margin-top: 50px;
-}
-
-.fatec3 a{
+.fatec3 a {
     color: rgb(187, 106, 241);
 }
 
+.maps {
+    text-align: center;
+    margin-top: 50px;
+}

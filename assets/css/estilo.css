@@ -23,10 +23,12 @@ nav {
     font-weight: 700;
     color: black;
     margin-top: 40px;
+    transition: 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 
 .inicio:hover {
     color: rgb(187, 106, 241);
+    transition: 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 
 a {
@@ -39,10 +41,6 @@ a {
     justify-content: end;
 }
 
-.menu li a:hover {
-    color: rgb(187, 106, 241);
-}
-
 .menu li {
     padding-left: 30px;
 }
@@ -51,6 +49,13 @@ a {
     text-decoration: none;
     font-size: 25px;
     color: black;
+    transition: 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+
+.menu li a:hover {
+    color: rgb(187, 106, 241);
+    transition: 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 
 .animado {
@@ -85,11 +90,28 @@ a {
 
 @keyframes digitar {
 
-    10%,15%,30%,35%,50%,55%,70%,75%,90%,95% {
+    10%,
+    15%,
+    30%,
+    35%,
+    50%,
+    55%,
+    70%,
+    75%,
+    90%,
+    95% {
         width: 0;
     }
 
-    5%,20%,25%,40%,45%,60%,65%,80%,85% {
+    5%,
+    20%,
+    25%,
+    40%,
+    45%,
+    60%,
+    65%,
+    80%,
+    85% {
         width: calc(100% + 18px);
     }
 }
@@ -102,23 +124,28 @@ a {
 
 @keyframes mensagem {
 
-    0%,20% {
+    0%,
+    20% {
         content: "";
     }
 
-    21%,40% {
+    21%,
+    40% {
         content: "Meu nome é Alissa Gabriel";
     }
 
-    41%,60% {
+    41%,
+    60% {
         content: "Estudo na Fatec-Jahu";
     }
 
-    61%,80% {
+    61%,
+    80% {
         content: "Estou cursando DSM";
     }
 
-    81%,100% {
+    81%,
+    100% {
         content: "";
     }
 }
@@ -139,32 +166,18 @@ body::-webkit-scrollbar-thumb {
     border: 3px solid black;
 }
 
-.inicio2 {
-    font-size: 50px;
-    font-weight: 700;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    position: absolute;
-    padding-top: 30px;
-    padding-left: 50px;
-}
-
-.inicio2:hover {
-    color: rgb(187, 106, 241);
-}
-
-.copy {
-    font-size: 20px;
-    text-align: center;
-}
-
 .github {
     width: 80px;
     height: 80px;
     margin-right: 28px;
     margin-top: 2px;
+    transition: 0.6s;
+}
+
+.github:hover {
+    width: 150px;
+    height: 150px;
+    transition: 0.6s;
 }
 
 .gmail {
@@ -172,16 +185,13 @@ body::-webkit-scrollbar-thumb {
     height: 55px;
     margin-right: 28px;
     margin-top: 2px;
-}
-
-.github:hover {
-    width: 150px;
-    height: 150px;
+    transition: 0.6s;
 }
 
 .gmail:hover {
     width: 100px;
     height: 100px;
+    transition: 0.6s;
 }
 
 .menu1 {
@@ -204,10 +214,6 @@ body::-webkit-scrollbar-thumb {
     padding-bottom: 70px;
 }
 
-.menu2 li a:hover {
-    color: rgb(187, 106, 241);
-}
-
 .menu2 li {
     padding-left: 30px;
 }
@@ -216,5 +222,15 @@ body::-webkit-scrollbar-thumb {
     text-decoration: none;
     font-size: 25px;
     color: black;
+    transition: 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 
+.menu2 li a:hover {
+    color: rgb(187, 106, 241);
+    transition: 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+.copy {
+    font-size: 20px;
+    text-align: center;
+}

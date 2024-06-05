@@ -1,5 +1,4 @@
-
-#texto{  
+#texto {
     color: rgb(187, 106, 241);
     font-family: monospace;
     margin-top: 150px;
@@ -8,24 +7,21 @@
     text-align: center;
 }
 
-.container1 img, .container2 img{
+.container1 img,
+.container2 img {
     width: 200px;
     height: 200px;
     padding: 15px;
     margin-top: 50px;
 }
+
 .conhecimentos {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-  
-.container2{
+
+.container2 {
     margin-bottom: 60px;
- }
-
-
-
-
-
+}
